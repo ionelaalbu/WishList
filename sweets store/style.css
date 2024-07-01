@@ -1,0 +1,140 @@
+:root{
+    --first-bg-color: #020617;
+    --second-bg-color: #1f2937;
+    --third-bg-color: #9ca3af;
+    --fourth-bg-color: #164e63;
+    --fifth-bg-color: #16a085;
+}
+body{
+    background: var(--first-bg-color);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: var(--second-bg-color);
+    position: absolute;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon{
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid var(--first-bg-color);
+    font-weight: 600;
+    color: #020617;
+}
+.icon p{
+    color: #fff;
+}
+h1{
+    color: #fff;
+    font-size: 60px;
+}
+#first-container{
+    height: 694px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #9ca3af;
+}
+#second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--first-bg-color );
+    height: 694px;
+    width: 100%;
+    display: none;
+}
+#third-container{
+    background: var(--first-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 694px;
+    width: 100%;
+    display: none;
+}
+.icon:hover{
+    background: var(--first-bg-color);
+    color: var(--second-bg-color);
+}
+.icon:active{
+    background: var(--fifth-bg-color);
+    box-shadow: 3px 3px 5px 5px  #3bb69d;
+    border: none;
+    color: #fff;
+}
+/* second container*/
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: var(--third-bg-color);
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px
+}
+li{
+    list-style-type: none;
+    font-size: 30px;
+    background: #fff;
+    padding: 20px;
+    color: #020617;
+}
+.button{
+    font-size: 20px;
+    background: var(--fourth-bg-color);
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background: var(--fifth-bg-color);
+}
+.button:active{
+    border-bottom:  var(--third-bg-color) 2px solid;
+    border-right:  var(--third-bg-color) 2px solid;
+    border-top:  black 2px solid;
+    border-left:  black 2px solid;
+}
+.div-count{
+    background: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    color: yellow;
+    display: none;
+}
+/*third-container*/
+.wishContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    color: #fff;
+    margin-top: 30px;
+}

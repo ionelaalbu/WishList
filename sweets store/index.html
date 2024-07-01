@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweets Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+
+      src="https://kit.fontawesome.com/aed0be2434.js"
+
+      crossorigin="anonymous"
+
+    ></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="icon icon-first">
+                <i class="fa-solid fa-house fa-3x"></i>
+                <p>HOME</p>
+            </div>
+            <div class="icon icon-second">
+                <i class="fa-solid fa-candy-cane fa-3x"></i>
+                <p>PRODUCTS</p>
+            </div>
+            <div class="icon icon-third">
+                <div class="div-count"></div>
+                <i class="fa-solid fa-heart fa-3x"></i>
+                <p>WISHLIST</p>
+            </div>
+        </nav>
+    </header>
+    <div  id="first-container">
+        <h1>Welcome</h1>
+        <p>Sweets store. We care about your health, run here and grab your sweets!</p>
+    </div>
+    <div id="second-container">
+         <div class="products">
+            <div class="title">
+                <h2>Products</h2>
+            </div>
+            <div class="example">
+                <ul>
+                    <div class="li">
+                        <li>Snikers</li>
+                        <button  type="button" class="button" id="SnikersBt" value="Snikers">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Mars</li>
+                        <button type="button" class="button" id="MarsBt" value="Mars">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Kinder</li>
+                        <button type="button" class="button" id="KdBt" value="Kinder">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Bounty</li>
+                        <button type="button" class="button" id="BoBt" value="Bounty">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>KitKat</li>
+                        <button type="button" class="button" id="KKBt" value="KitKat">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Twix</li>
+                        <button type="button" class="button" id="TxBt" value="Twix">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>M & M</li>
+                        <button type="button" class="button" id="mBt" value="M & M">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Lindt </li>
+                        <button type="button" class="button" id="LBt" value="Lindt">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Dairy Milk</li>
+                        <button type="button" class="button" id="DMBt" value="Dairy Milk">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Toblerone</li>
+                        <button type="button" class="button" id="TBt" value="Toblerone">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Ferrero Rocher</li>
+                        <button type="button" class="button" id="FRBt" value="Ferrero Rocher">Add to Wishlist</button>
+                    </div>
+                    <div class="li">
+                        <li>Milky Way </li>
+                        <button type="button" class="button" id="MwBt" value="Milky Way">Add to Wishlist</button>
+                    </div>
+                    
+                </ul>
+            </div>
+         </div>
+        
+    </div>
+
+    <div id="third-container">
+          <div class="wishlist-show">
+            <h1>Wishlist</h1>
+            <form >
+                <input class="input" type="text" placeholder="Write your wish here...">
+                <button class="lastBtn" type="button">Add</button>
+            </form>
+            <div class="wishContainer">
+                
+            </div>
+          </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
